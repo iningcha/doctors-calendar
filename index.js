@@ -68,16 +68,7 @@ app.get("/getAppointments", (req, res) => {
             result.push(appointment);
           });
         }
-          
-        });
-
-        // doctor.appointments.forEach(app => {
-        //   Appointment.findOne({"_id" : app}, function (err, appointment) {
-        //     console.log(appointment)
-        //     result += appointment;
-        //   });
-        // });
-
+      });
     }
 
     findAppointment();
