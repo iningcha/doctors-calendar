@@ -1,0 +1,15 @@
+{
+  "name": "doctors-calendar",
+  "version": "1.0.0",
+  "description": "A backend API for doctors calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.9.16"
+  }
+}
